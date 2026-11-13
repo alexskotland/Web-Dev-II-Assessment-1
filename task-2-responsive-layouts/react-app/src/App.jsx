@@ -1,0 +1,88 @@
+import './App.css'
+
+function App() {
+  return (
+    <div className="website">
+      <header className="header">
+        <h1>watch.it</h1>
+
+        <nav>
+          <a href="#about">About</a>
+          <a href="#movies">Movies</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button className="search-button">SEARCH</button>
+      </header>
+
+      <main className="movies" id="movies">
+
+  <div className="movie-card featured">
+    <img src="/who-framed-roger-rabbit.jpg" alt="Who Framed Roger Rabbit" />
+    <h2>Who Framed Roger Rabbit (1988)</h2>
+    <p> In a world where cartoons and humans coexist, a detective
+must solve a zany, high-stakes mystery. Packed with wild
+humor, groundbreaking animation, and noir twists, this
+unique film will pull you into a world where anything
+is possible! </p>
+    <button>WATCH NOW</button>
+  </div>
+
+  <div className="movie-card">
+    <img src="/hook.jpg" alt="Hook" />
+    <h2>Hook (1991)</h2>
+    <p>Rediscover Neverland in this thrilling twist on Peter Pan!
+Robin Williams stars as a grown-up Peter, who must
+rediscover his inner child to rescue his kids from the
+clutches of Captain Hook. Adventure, magic, and nostalgia
+blend in this timeless family classic.   </p>
+    <button>WATCH NOW</button>
+  </div>
+
+  <div className="movie-card">
+    <img src="/la-la-land.jpg" alt="La La Land" />
+    <h2>La La Land (2016)</h2>
+    <p>Love, dreams, and the magic of LA take center stage in this
+musical masterpiece. Watch as two starry-eyed artists
+navigate passion and ambition in a world where every
+moment feels like a cinematic spectacle!    </p>
+    <button>WATCH NOW</button>
+  </div>
+
+  <div className="movie-card">
+    <img src="/hidden-figures.jpg" alt="Hidden Figures" />
+    <h2>Hidden Figures (2016)</h2>
+    <p> Three unsung heroes of NASA's space race take the spotlight
+in this inspiring true story. Battling discrimination and
+defying the odds, these brilliant African-American women
+prove that intelligence, perseverance, and unity can change
+history and break barriers.  </p>
+    <button>WATCH NOW</button>
+  </div>
+
+  <div className="movie-card featured">
+    <img src="/palm-springs.jpg" alt="Palm Springs" />
+    <h2>Palm Springs (2020)</h2>
+    <p>A never-ending wedding day turns into an unforgettable
+time-loop romance! Stuck in the same day, two strangers
+find love, chaos, and meaning in the most unexpected ways.   </p>
+    <button>WATCH NOW</button>
+  </div>
+
+  <div className="movie-card">
+    <img src="/barbie.jpg" alt="Barbie" />
+    <h2>Barbie (2023)</h2>
+    <p>Step into the dazzling world of Barbie as she embarks
+on an unexpected journey from her perfect doll life
+to the real world. Filled with humor, heart, and
+empowering messages, this vibrant adventure
+redefines what it means to dream big! </p>
+    <button>WATCH NOW</button>
+  </div>
+
+</main>
+    </div>
+  )
+}
+
+export default App
