@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Protest+Guerrilla&display=swap');
+
+body {
+  margin: 0;
+  background-color: #e9e9e9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+nav a {
+  color: #14181d;
+  text-decoration: none;
+}
+
+main {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1, h2 {
+  font-family: 'Protest Guerrilla', sans-serif;
+}
+
+main h1 {
+  font-size: 70px;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+}
+
+main h2 {
+  font-size: 30px;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+article {
+  text-align: left;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+  .gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin-top: 50px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery img:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+  background-color: white;
+}
+
+.author-text {
+  flex: 1;
+  text-align: left;
+}
+
+.author-text h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.author-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.author-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.comments {
+  background-color: #e9e9e9;
+  padding: 50px;
+  text-align: left;
+}
+
+.comments h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.comment {
+  margin-bottom: 30px;
+}
+
+.comment h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #14181d;
+}
+
+.comment p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 0;
+}
+.footer {
+  background-color: #14181d;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+/* Article layout */
+
+article {
+  text-align: left;
+  column-count: 3;
+  column-gap: 20px;
+}
+
+article > p:first-child {
+  column-span: all;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+article h2 {
+  break-after: avoid;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+article p {
+  break-inside: auto;
+}
+main > h1,
+main > h2 {
+  text-align: left;
+}
+main > h1 {
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 80px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+main > h2 {
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
